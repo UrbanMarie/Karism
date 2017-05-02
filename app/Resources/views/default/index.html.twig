@@ -1,10 +1,8 @@
 {% extends 'base.html.twig' %}
 
    {% block stylesheets %}
-    {{parent()}} 
-    {#<link rel="stylesheet" href="{{ asset('/script/slickCarousel/slick-theme.css') }}" />#}
-    <link rel="stylesheet" href="{{ asset('/script/slickCarousel/slick.css') }}" />
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    {{parent()}}
+
 
 {% endblock %}
 
@@ -110,6 +108,12 @@
 
 
         </div>
+
+        <div>
+            {% foreach image in images %}
+                    {{ image.carousselExpo}}
+            {% endfor %}
+        </div>
     </section>
     {#   Dernier Section:  Les expo selon nous  #}
     <section>
@@ -144,8 +148,9 @@
         </div>
     </section>
 {% endblock %}
-{% block javascripts %}  
+{% block javascripts %}
     {{ parent() }}
+
     <script src="{{asset('script/slickCarousel/slick.js') }}"></script>
     <script src="{{asset('script/js/home.js')}}"></script>
 {% endblock %}

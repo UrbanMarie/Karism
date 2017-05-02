@@ -4,10 +4,22 @@
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     </head>
     <body>
+        <nav class="navbar navbar-default navbar-static-top nav-pills ">
+          <div class="container">
+              <div class="logo pull-left"> <img src="img/logo/logo.jpg " alt="logo"/></div>
+            
+          </div>
+        </nav>
+
+
+
         {% block body %}{% endblock %}
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
