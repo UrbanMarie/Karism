@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Mer 03 Mai 2017 à 18:27
+-- Généré le :  Mer 03 Mai 2017 à 19:21
 -- Version du serveur :  5.7.18-0ubuntu0.16.04.1
 -- Version de PHP :  7.0.15-0ubuntu0.16.04.4
 
@@ -31,6 +31,21 @@ CREATE TABLE `landing` (
   `image` varchar(255) NOT NULL,
   `categorie` smallint(5) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `landing`
+--
+
+INSERT INTO `landing` (`id`, `image`, `categorie`) VALUES
+(1, './img/caroussel/Artiste/A1.jpg', 1),
+(2, './img/caroussel/Artiste/A2.jpg', 1),
+(3, './img/caroussel/Artiste/A3.jpg', 1),
+(4, './img/caroussel/Artiste/A4.jpg', 1),
+(5, './img/caroussel/Expos/expo1.jpg', 2),
+(6, './img/caroussel/Expos/expo2.jpg', 2),
+(7, './img/caroussel/Expos/expo3.jpg', 2),
+(8, './img/caroussel/Expos/expo3.jpg', 2),
+(9, './img/caroussel/Expos/expo4.jpg', 2);
 
 -- --------------------------------------------------------
 
@@ -110,7 +125,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `landing`
 --
 ALTER TABLE `landing`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT pour la table `permissions`
 --
