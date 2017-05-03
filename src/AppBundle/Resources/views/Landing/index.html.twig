@@ -1,9 +1,66 @@
 {% extends "::base.html.twig" %} {% block title %}AppBundle:Landing:index{% endblock %} {% block body %}
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="{{asset('/CSS/landing.css')}}" media="screen">
+{% endblock %}
 
 
-<h1>Welcome to the Landing:index page</h1>
+<div class="container-fluid">
+    <div class="imgLANDconteneur">
+    <!--  <img id="imgLAND" alt="" src="{{asset('/img/backgroundLAND/fong.jpg')}}"/>  -->
+    <a class="imgLAND" href="http://placehold.it"><img src="http://placehold.it/2000x800"></a>
+    </div>
 
+     <div id="recherche">
+    <form class="navbar-form " role="search">
+      <p class="navbar-text text-center"> Je cherche </p>
+            <div class="btn-group">
+     <button type="button" class="btn btn-default">une expo</button>
+     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <span class="caret"></span>
+       <span class="sr-only">Toggle Dropdown</span>
+     </button>
+     <ul class="dropdown-menu">
+       <li><a href="#">Action</a></li>
+       <li><a href="#">Another action</a></li>
+       <li><a href="#">Something else here</a></li>
+       <li role="separator" class="divider"></li>
+       <li><a href="#">Separated link</a></li>
+     </ul>
+     <p class="navbar-text"> à </p>
+<button type="button" class="btn btn-default">Paris</button>
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<span class="caret"></span>
+<span class="sr-only">Toggle Dropdown</span>
+</button>
+<ul class="dropdown-menu">
+<li><a href="#">Action</a></li>
+<li><a href="#">Another action</a></li>
+<li><a href="#">Something else here</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="#">Separated link</a></li>
+</ul>
+     <p class="navbar-text"> de </p>
+<button type="button" class="btn btn-default">Photo</button>
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<span class="caret"></span>
+<span class="sr-only">Toggle Dropdown</span>
+</button>
+<ul class="dropdown-menu">
+<li><a href="#">Action</a></li>
+<li><a href="#">Another action</a></li>
+<li><a href="#">Something else here</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="#">Separated link</a></li>
+</ul>
 
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+    </div>
+    </div>
+
+<div class="carousel">
+<div id="carouselExpo">
+    <h2> Les rendez vous de la semaine </h2>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     {% set imgCount = 0 %}
 
@@ -18,7 +75,7 @@
     <div class="carousel-inner" role="listbox">
         {% set imgCount = 0 %} {% for image in images %}
         <div class="item {% if imgCount == 0 %}active{% endif %}">
-            <img src="{{ asset(image.carousselExpo) }}" alt="...">
+            <img id="imgExpo "src="{{ asset(image.carousselExpo) }}" alt="...">
 
             <div class="carousel-caption">
                 ...
@@ -38,8 +95,11 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
 
-<div id="carouselArtiste" class="carousel slide" data-ride="carousel">
+<div id="carouselArtiste">
+    <h2> Des artistes a découvrir </h2>
+<div class="carousel slide" data-ride="carousel">
     {% set imgCount = 0 %}
 
     <!-- Indicators -->
@@ -53,7 +113,7 @@
     <div class="carousel-inner" role="listbox">
         {% set imgCount = 0 %} {% for image in images %}
         <div class="item {% if imgCount == 0 %}active{% endif %}">
-            <img src="{{ asset(image.carousselArtiste) }}" alt="...">
+            <img id="imgArtiste" src="{{ asset(image.carousselArtiste) }}" alt="...">
 
             <div class="carousel-caption">
                 ...
@@ -73,8 +133,70 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
+</div>
 
 
+
+    <!--
+
+        <div class="video">
+    <h2 class="H2white"> Manifeste Karism </h2>
+    <iframe src="//www.youtube.com/embed/GAQ8PePmN6w" allowfullscreen=""></iframe>
+
+    </div> -->
+
+    <section class="video">
+        <h2>Manifestation Kar:ms</h2>
+        <div class="embed-responsive embed-responsive">
+          <iframe class="vid embed-responsive-item"  src="//www.youtube.com/embed/GAQ8PePmN6w" width="300" height="150"></iframe>
+       </div>
+   </section>
+
+
+<div class="row laius">
+<h2>Les expos selon nous </h2>
+<div class="col-md-12">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="http://placehold.it"><img src="http://placehold.it/150x250"></a>
+      <div class="caption">
+        <h2>Transformez votre salon en galerie éphèmère</h2>
+        <p>Nis clou ni vis les artistes scénographie leur expo sans toucher a vos murs</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="http://placehold.it"><img src="http://placehold.it/150x250"></a>
+      <div class="caption">
+        <p><h2> Faites des rencontres</h2></p>
+        <p>Les expos à la maison c'est le moment idéal pour faire des rencontres et parler de vos passions.</p>
+
+      </div>
+    </div>
+</div>
+
+<div class="col-md-4">
+  <div class="thumbnail">
+    <a href="http://placehold.it"><img src="http://placehold.it/150x250"></a>
+    <div class="caption">
+      <h2>Vivez un moment hors du temps</h2>
+      <p>Pas besoin d'avion pour voyager, laissez vous surprendre à deux pas de chez vous</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
 {% endblock %} {% block javascripts %}
 <script type="text/javascript">
     $().ready(function() {

@@ -5,16 +5,31 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{asset('/CSS/template.css')}}" media="screen">
+        <script src="https://use.fontawesome.com/720a2db289.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-static-top nav-pills ">
           <div class="container">
-              <div class="logo pull-left"> <img src="img/logo/logo.jpg " alt="logo"/></div>
-            
+              <div class="logo pull-left"> <img src="{{asset('img/logo/logo.jpg')}}" alt="logo"/></div>
+              <div class="btn-group  pull-right">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Name User <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
+  </div>
           </div>
         </nav>
 
+<div class="footer">
+</div>
 
 
         {% block body %}{% endblock %}
