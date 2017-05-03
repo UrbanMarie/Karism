@@ -29,7 +29,7 @@ class LandingController extends Controller
             $imgs[] = $image->getImage();
         }
 
-        return $this->render('default/index.html.twig', ["images" => $imgs]);
+        return $this->render('AppBundle:Landing:index.html.twig', ["images" => $imgs]);
 
     }
 
