@@ -1,9 +1,21 @@
 {% extends "::base.html.twig" %} {% block title %}AppBundle:Landing:index{% endblock %} {% block body %}
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="{{asset('/CSS/landing.css')}}">
+{% endblock %}
 
 
-<h1>Welcome to the Landing:index page</h1>
+<div class="container-fluid">
+    <div class="imgLAND">
+    <!--  <img id="imgLAND" alt="" src="{{asset('/img/backgroundLAND/fong.jpg')}}"/>  -->
+    <a href="http://placehold.it"><img src="http://placehold.it/1900x450"></a>
+    </div>
 
+    <div id="recherche">
 
+    </div>
+
+<div id="carouselExpo">
+    <h2> Les rendez vous de la semaine </h2>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     {% set imgCount = 0 %}
 
@@ -18,7 +30,7 @@
     <div class="carousel-inner" role="listbox">
         {% set imgCount = 0 %} {% for image in images %}
         <div class="item {% if imgCount == 0 %}active{% endif %}">
-            <img src="{{ asset(image.carousselExpo) }}" alt="...">
+            <img id="imgExpo "src="{{ asset(image.carousselExpo) }}" alt="...">
 
             <div class="carousel-caption">
                 ...
@@ -38,8 +50,11 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
 
-<div id="carouselArtiste" class="carousel slide" data-ride="carousel">
+<div id="carouselArtiste">
+    <h2> Des artistes a découvrir </h2>
+<div class="carousel slide" data-ride="carousel">
     {% set imgCount = 0 %}
 
     <!-- Indicators -->
@@ -53,7 +68,7 @@
     <div class="carousel-inner" role="listbox">
         {% set imgCount = 0 %} {% for image in images %}
         <div class="item {% if imgCount == 0 %}active{% endif %}">
-            <img src="{{ asset(image.carousselArtiste) }}" alt="...">
+            <img id="imgArtiste" src="{{ asset(image.carousselArtiste) }}" alt="...">
 
             <div class="carousel-caption">
                 ...
@@ -73,8 +88,22 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
 
 
+
+
+<div>
+    <div class="row video bli">
+        <h2 class="H2white"> Manifeste Karism </h2>
+        <div class="video">
+    <iframe class="vid col-md-offset-2 col-md-8 col-xs-12"  src="//www.youtube.com/embed/GAQ8PePmN6w" allowfullscreen=""></iframe>  
+        </div>
+</div>
+
+
+</div>
+</div>
 {% endblock %} {% block javascripts %}
 <script type="text/javascript">
     $().ready(function() {
