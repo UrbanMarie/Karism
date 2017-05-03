@@ -24,45 +24,45 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_806a76c0c58989bfc35be1d3f40b78242c9fda16c1bfe14efe74f8406695613e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_806a76c0c58989bfc35be1d3f40b78242c9fda16c1bfe14efe74f8406695613e->enter($__internal_806a76c0c58989bfc35be1d3f40b78242c9fda16c1bfe14efe74f8406695613e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Landing:index.html.twig"));
+        $__internal_4e241cdbe8894b757e23773340045585a06280a527c44b2711f289f9361c2254 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4e241cdbe8894b757e23773340045585a06280a527c44b2711f289f9361c2254->enter($__internal_4e241cdbe8894b757e23773340045585a06280a527c44b2711f289f9361c2254_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Landing:index.html.twig"));
 
-        $__internal_0c420f3f2456ce1d40439c3b3b03403208f5cb78b1913cea0a0e4c3472a14141 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0c420f3f2456ce1d40439c3b3b03403208f5cb78b1913cea0a0e4c3472a14141->enter($__internal_0c420f3f2456ce1d40439c3b3b03403208f5cb78b1913cea0a0e4c3472a14141_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Landing:index.html.twig"));
+        $__internal_7508011c71e8a18730f9e26b0a2d806ad66da6feee609858770b9a31a51aada1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7508011c71e8a18730f9e26b0a2d806ad66da6feee609858770b9a31a51aada1->enter($__internal_7508011c71e8a18730f9e26b0a2d806ad66da6feee609858770b9a31a51aada1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Landing:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_806a76c0c58989bfc35be1d3f40b78242c9fda16c1bfe14efe74f8406695613e->leave($__internal_806a76c0c58989bfc35be1d3f40b78242c9fda16c1bfe14efe74f8406695613e_prof);
+        $__internal_4e241cdbe8894b757e23773340045585a06280a527c44b2711f289f9361c2254->leave($__internal_4e241cdbe8894b757e23773340045585a06280a527c44b2711f289f9361c2254_prof);
 
         
-        $__internal_0c420f3f2456ce1d40439c3b3b03403208f5cb78b1913cea0a0e4c3472a14141->leave($__internal_0c420f3f2456ce1d40439c3b3b03403208f5cb78b1913cea0a0e4c3472a14141_prof);
+        $__internal_7508011c71e8a18730f9e26b0a2d806ad66da6feee609858770b9a31a51aada1->leave($__internal_7508011c71e8a18730f9e26b0a2d806ad66da6feee609858770b9a31a51aada1_prof);
 
     }
 
     public function block_title($context, array $blocks = array())
     {
-        $__internal_18123a75f9e232182a57be6480f778bf00fa8429a52a2e9305b4c380b8c49bd4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_18123a75f9e232182a57be6480f778bf00fa8429a52a2e9305b4c380b8c49bd4->enter($__internal_18123a75f9e232182a57be6480f778bf00fa8429a52a2e9305b4c380b8c49bd4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_62fdc38c0cb42c1e35f5f575b5b839ed3db22f8395235f2607966d5649b84241 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_62fdc38c0cb42c1e35f5f575b5b839ed3db22f8395235f2607966d5649b84241->enter($__internal_62fdc38c0cb42c1e35f5f575b5b839ed3db22f8395235f2607966d5649b84241_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_89e634eb1bb719c6e6c04c79d7a1a048c89b759526debda7fcebe6c1c2213024 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_89e634eb1bb719c6e6c04c79d7a1a048c89b759526debda7fcebe6c1c2213024->enter($__internal_89e634eb1bb719c6e6c04c79d7a1a048c89b759526debda7fcebe6c1c2213024_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_0ebeba05c22d6c56a3ddcd168f7fa3007f90980ece6a804b171c06209eab5063 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0ebeba05c22d6c56a3ddcd168f7fa3007f90980ece6a804b171c06209eab5063->enter($__internal_0ebeba05c22d6c56a3ddcd168f7fa3007f90980ece6a804b171c06209eab5063_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "AppBundle:Landing:index";
         
-        $__internal_89e634eb1bb719c6e6c04c79d7a1a048c89b759526debda7fcebe6c1c2213024->leave($__internal_89e634eb1bb719c6e6c04c79d7a1a048c89b759526debda7fcebe6c1c2213024_prof);
+        $__internal_0ebeba05c22d6c56a3ddcd168f7fa3007f90980ece6a804b171c06209eab5063->leave($__internal_0ebeba05c22d6c56a3ddcd168f7fa3007f90980ece6a804b171c06209eab5063_prof);
 
         
-        $__internal_18123a75f9e232182a57be6480f778bf00fa8429a52a2e9305b4c380b8c49bd4->leave($__internal_18123a75f9e232182a57be6480f778bf00fa8429a52a2e9305b4c380b8c49bd4_prof);
+        $__internal_62fdc38c0cb42c1e35f5f575b5b839ed3db22f8395235f2607966d5649b84241->leave($__internal_62fdc38c0cb42c1e35f5f575b5b839ed3db22f8395235f2607966d5649b84241_prof);
 
     }
 
     public function block_body($context, array $blocks = array())
     {
-        $__internal_4865ccf3f1eb8f50aa7574385b6d7cde110c6ac32ee46fee72f09dcf6f5c3ffa = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4865ccf3f1eb8f50aa7574385b6d7cde110c6ac32ee46fee72f09dcf6f5c3ffa->enter($__internal_4865ccf3f1eb8f50aa7574385b6d7cde110c6ac32ee46fee72f09dcf6f5c3ffa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_812558911fce799a1329e9eadcdf4622b9f56e77927900b86123a68e1ecea200 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_812558911fce799a1329e9eadcdf4622b9f56e77927900b86123a68e1ecea200->enter($__internal_812558911fce799a1329e9eadcdf4622b9f56e77927900b86123a68e1ecea200_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_21d48baf63f75719db4b96c40ab3378bdc832d8f049cba1abdefa90a87ea278e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_21d48baf63f75719db4b96c40ab3378bdc832d8f049cba1abdefa90a87ea278e->enter($__internal_21d48baf63f75719db4b96c40ab3378bdc832d8f049cba1abdefa90a87ea278e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_d8fbdbb7a3e083f94515e736feff250c93ee10abd1c3cdf02c16ba538b77a8ae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d8fbdbb7a3e083f94515e736feff250c93ee10abd1c3cdf02c16ba538b77a8ae->enter($__internal_d8fbdbb7a3e083f94515e736feff250c93ee10abd1c3cdf02c16ba538b77a8ae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 2
         $this->displayBlock('stylesheets', $context, $blocks);
@@ -70,65 +70,110 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
         echo "
 
 <div class=\"container-fluid\">
-    <div class=\"imgLAND\">
+    <div class=\"imgLANDconteneur\">
     <!--  <img id=\"imgLAND\" alt=\"\" src=\"";
         // line 9
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/img/backgroundLAND/fong.jpg"), "html", null, true);
         echo "\"/>  -->
-    <a href=\"http://placehold.it\"><img src=\"http://placehold.it/1900x450\"></a>
+    <a class=\"imgLAND\" href=\"http://placehold.it\"><img src=\"http://placehold.it/2000x800\"></a>
     </div>
 
-    <div id=\"recherche\">
+     <div id=\"recherche\">
+    <form class=\"navbar-form \" role=\"search\">
+      <p class=\"navbar-text text-center\"> Je cherche </p>
+            <div class=\"btn-group\">
+     <button type=\"button\" class=\"btn btn-default\">une expo</button>
+     <button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+       <span class=\"caret\"></span>
+       <span class=\"sr-only\">Toggle Dropdown</span>
+     </button>
+     <ul class=\"dropdown-menu\">
+       <li><a href=\"#\">Action</a></li>
+       <li><a href=\"#\">Another action</a></li>
+       <li><a href=\"#\">Something else here</a></li>
+       <li role=\"separator\" class=\"divider\"></li>
+       <li><a href=\"#\">Separated link</a></li>
+     </ul>
+     <p class=\"navbar-text\"> à </p>
+<button type=\"button\" class=\"btn btn-default\">Paris</button>
+<button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+<span class=\"caret\"></span>
+<span class=\"sr-only\">Toggle Dropdown</span>
+</button>
+<ul class=\"dropdown-menu\">
+<li><a href=\"#\">Action</a></li>
+<li><a href=\"#\">Another action</a></li>
+<li><a href=\"#\">Something else here</a></li>
+<li role=\"separator\" class=\"divider\"></li>
+<li><a href=\"#\">Separated link</a></li>
+</ul>
+     <p class=\"navbar-text\"> de </p>
+<button type=\"button\" class=\"btn btn-default\">Photo</button>
+<button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+<span class=\"caret\"></span>
+<span class=\"sr-only\">Toggle Dropdown</span>
+</button>
+<ul class=\"dropdown-menu\">
+<li><a href=\"#\">Action</a></li>
+<li><a href=\"#\">Another action</a></li>
+<li><a href=\"#\">Something else here</a></li>
+<li role=\"separator\" class=\"divider\"></li>
+<li><a href=\"#\">Separated link</a></li>
+</ul>
 
+          <button type=\"submit\" class=\"btn btn-warning\">Submit</button>
+        </form>
+    </div>
     </div>
 
+<div class=\"carousel\">
 <div id=\"carouselExpo\">
     <h2> Les rendez vous de la semaine </h2>
 <div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\">
     ";
-        // line 20
+        // line 65
         $context["imgCount"] = 0;
-        // line 21
+        // line 66
         echo "
     <!-- Indicators -->
     <ol class=\"carousel-indicators\">
         ";
-        // line 24
+        // line 69
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 24, $this->getSourceContext()); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 69, $this->getSourceContext()); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
-            // line 25
+            // line 70
             echo "        <li data-target=\"#carousel-example-generic\" data-slide-to=\"";
-            echo twig_escape_filter($this->env, (isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 25, $this->getSourceContext()); })()), "html", null, true);
+            echo twig_escape_filter($this->env, (isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 70, $this->getSourceContext()); })()), "html", null, true);
             echo "\" class=\"active\"></li>
         ";
-            // line 26
-            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 26, $this->getSourceContext()); })()) + 1);
+            // line 71
+            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 71, $this->getSourceContext()); })()) + 1);
             echo " ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 27
+        // line 72
         echo "    </ol>
 
     <!-- Wrapper for slides -->
     <div class=\"carousel-inner\" role=\"listbox\">
         ";
-        // line 31
+        // line 76
         $context["imgCount"] = 0;
         echo " ";
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 31, $this->getSourceContext()); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 76, $this->getSourceContext()); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
-            // line 32
+            // line 77
             echo "        <div class=\"item ";
-            if (((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 32, $this->getSourceContext()); })()) == 0)) {
+            if (((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 77, $this->getSourceContext()); })()) == 0)) {
                 echo "active";
             }
             echo "\">
             <img id=\"imgExpo \"src=\"";
-            // line 33
+            // line 78
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(twig_get_attribute($this->env, $this->getSourceContext(), $context["image"], "carousselExpo", array())), "html", null, true);
             echo "\" alt=\"...\">
 
@@ -137,14 +182,14 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
             </div>
         </div>
         ";
-            // line 39
-            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 39, $this->getSourceContext()); })()) + 1);
+            // line 84
+            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 84, $this->getSourceContext()); })()) + 1);
             echo " ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 40
+        // line 85
         echo "
     </div>
 
@@ -164,49 +209,49 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
     <h2> Des artistes a découvrir </h2>
 <div class=\"carousel slide\" data-ride=\"carousel\">
     ";
-        // line 58
+        // line 103
         $context["imgCount"] = 0;
-        // line 59
+        // line 104
         echo "
     <!-- Indicators -->
     <ol class=\"carousel-indicators\">
         ";
-        // line 62
+        // line 107
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 62, $this->getSourceContext()); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 107, $this->getSourceContext()); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
-            // line 63
+            // line 108
             echo "        <li data-target=\"#carouselArtiste\" data-slide-to=\"";
-            echo twig_escape_filter($this->env, (isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 63, $this->getSourceContext()); })()), "html", null, true);
+            echo twig_escape_filter($this->env, (isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 108, $this->getSourceContext()); })()), "html", null, true);
             echo "\" class=\"active\"></li>
         ";
-            // line 64
-            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 64, $this->getSourceContext()); })()) + 1);
+            // line 109
+            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 109, $this->getSourceContext()); })()) + 1);
             echo " ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 65
+        // line 110
         echo "    </ol>
 
     <!-- Wrapper for slides -->
     <div class=\"carousel-inner\" role=\"listbox\">
         ";
-        // line 69
+        // line 114
         $context["imgCount"] = 0;
         echo " ";
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 69, $this->getSourceContext()); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["images"]) || array_key_exists("images", $context) ? $context["images"] : (function () { throw new Twig_Error_Runtime('Variable "images" does not exist.', 114, $this->getSourceContext()); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
-            // line 70
+            // line 115
             echo "        <div class=\"item ";
-            if (((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 70, $this->getSourceContext()); })()) == 0)) {
+            if (((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 115, $this->getSourceContext()); })()) == 0)) {
                 echo "active";
             }
             echo "\">
             <img id=\"imgArtiste\" src=\"";
-            // line 71
+            // line 116
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(twig_get_attribute($this->env, $this->getSourceContext(), $context["image"], "carousselArtiste", array())), "html", null, true);
             echo "\" alt=\"...\">
 
@@ -215,14 +260,14 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
             </div>
         </div>
         ";
-            // line 77
-            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 77, $this->getSourceContext()); })()) + 1);
+            // line 122
+            $context["imgCount"] = ((isset($context["imgCount"]) || array_key_exists("imgCount", $context) ? $context["imgCount"] : (function () { throw new Twig_Error_Runtime('Variable "imgCount" does not exist.', 122, $this->getSourceContext()); })()) + 1);
             echo " ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 78
+        // line 123
         echo "
     </div>
 
@@ -237,62 +282,110 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
     </a>
 </div>
 </div>
-
-
-
-
-<div>
-    <div class=\"row video bli\">
-        <h2 class=\"H2white\"> Manifeste Karism </h2>
-        <div class=\"video\">
-    <iframe class=\"vid col-md-offset-2 col-md-8 col-xs-12\"  src=\"//www.youtube.com/embed/GAQ8PePmN6w\" allowfullscreen=\"\"></iframe>  
-        </div>
 </div>
+
+
+
+    <!--
+
+        <div class=\"video\">
+    <h2 class=\"H2white\"> Manifeste Karism </h2>
+    <iframe src=\"//www.youtube.com/embed/GAQ8PePmN6w\" allowfullscreen=\"\"></iframe>
+
+    </div> -->
+
+    <section class=\"video\">
+        <h2>Manifestation Kar:ms</h2>
+        <div class=\"embed-responsive embed-responsive\">
+          <iframe class=\"vid embed-responsive-item\"  src=\"//www.youtube.com/embed/GAQ8PePmN6w\" width=\"300\" height=\"150\"></iframe>
+       </div>
+   </section>
+
+
+<div class=\"row laius\">
+<h2>Les expos selon nous </h2>
+<div class=\"col-md-12\">
+  <div class=\"col-md-4\">
+    <div class=\"thumbnail\">
+      <a href=\"http://placehold.it\"><img src=\"http://placehold.it/150x250\"></a>
+      <div class=\"caption\">
+        <h2>Transformez votre salon en galerie éphèmère</h2>
+        <p>Nis clou ni vis les artistes scénographie leur expo sans toucher a vos murs</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class=\"col-md-4\">
+    <div class=\"thumbnail\">
+      <a href=\"http://placehold.it\"><img src=\"http://placehold.it/150x250\"></a>
+      <div class=\"caption\">
+        <p><h2> Faites des rencontres</h2></p>
+        <p>Les expos à la maison c'est le moment idéal pour faire des rencontres et parler de vos passions.</p>
+
+      </div>
+    </div>
+</div>
+
+<div class=\"col-md-4\">
+  <div class=\"thumbnail\">
+    <a href=\"http://placehold.it\"><img src=\"http://placehold.it/150x250\"></a>
+    <div class=\"caption\">
+      <h2>Vivez un moment hors du temps</h2>
+      <p>Pas besoin d'avion pour voyager, laissez vous surprendre à deux pas de chez vous</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
 
 
 </div>
 </div>
 ";
         
-        $__internal_21d48baf63f75719db4b96c40ab3378bdc832d8f049cba1abdefa90a87ea278e->leave($__internal_21d48baf63f75719db4b96c40ab3378bdc832d8f049cba1abdefa90a87ea278e_prof);
+        $__internal_d8fbdbb7a3e083f94515e736feff250c93ee10abd1c3cdf02c16ba538b77a8ae->leave($__internal_d8fbdbb7a3e083f94515e736feff250c93ee10abd1c3cdf02c16ba538b77a8ae_prof);
 
         
-        $__internal_4865ccf3f1eb8f50aa7574385b6d7cde110c6ac32ee46fee72f09dcf6f5c3ffa->leave($__internal_4865ccf3f1eb8f50aa7574385b6d7cde110c6ac32ee46fee72f09dcf6f5c3ffa_prof);
+        $__internal_812558911fce799a1329e9eadcdf4622b9f56e77927900b86123a68e1ecea200->leave($__internal_812558911fce799a1329e9eadcdf4622b9f56e77927900b86123a68e1ecea200_prof);
 
     }
 
     // line 2
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_db7a81ab0b7249c7a9f94155c2bd72b7c90c79ec0b978edbd1ddcf8d3220b8f3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_db7a81ab0b7249c7a9f94155c2bd72b7c90c79ec0b978edbd1ddcf8d3220b8f3->enter($__internal_db7a81ab0b7249c7a9f94155c2bd72b7c90c79ec0b978edbd1ddcf8d3220b8f3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_551b84dad59e0db0027fd432636edf37b6e5241162e81aa273b21424e09c5528 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_551b84dad59e0db0027fd432636edf37b6e5241162e81aa273b21424e09c5528->enter($__internal_551b84dad59e0db0027fd432636edf37b6e5241162e81aa273b21424e09c5528_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_9bbc05fd125f6839816d007786001590eb5fa4e1f7cefea918342d629208d560 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9bbc05fd125f6839816d007786001590eb5fa4e1f7cefea918342d629208d560->enter($__internal_9bbc05fd125f6839816d007786001590eb5fa4e1f7cefea918342d629208d560_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_9a4cfa127acb0e4899a7a2d25fbf0dc724c055329d79cd96fe3c29137c180406 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9a4cfa127acb0e4899a7a2d25fbf0dc724c055329d79cd96fe3c29137c180406->enter($__internal_9a4cfa127acb0e4899a7a2d25fbf0dc724c055329d79cd96fe3c29137c180406_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 3
         echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("/CSS/landing.css"), "html", null, true);
-        echo "\">
+        echo "\" media=\"screen\">
 ";
         
-        $__internal_9bbc05fd125f6839816d007786001590eb5fa4e1f7cefea918342d629208d560->leave($__internal_9bbc05fd125f6839816d007786001590eb5fa4e1f7cefea918342d629208d560_prof);
+        $__internal_9a4cfa127acb0e4899a7a2d25fbf0dc724c055329d79cd96fe3c29137c180406->leave($__internal_9a4cfa127acb0e4899a7a2d25fbf0dc724c055329d79cd96fe3c29137c180406_prof);
 
         
-        $__internal_db7a81ab0b7249c7a9f94155c2bd72b7c90c79ec0b978edbd1ddcf8d3220b8f3->leave($__internal_db7a81ab0b7249c7a9f94155c2bd72b7c90c79ec0b978edbd1ddcf8d3220b8f3_prof);
+        $__internal_551b84dad59e0db0027fd432636edf37b6e5241162e81aa273b21424e09c5528->leave($__internal_551b84dad59e0db0027fd432636edf37b6e5241162e81aa273b21424e09c5528_prof);
 
     }
 
-    // line 107
+    // line 200
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_4d7b383c92d19ff706e324549eb30553830413dc5a78beb99828dfac32efcedd = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4d7b383c92d19ff706e324549eb30553830413dc5a78beb99828dfac32efcedd->enter($__internal_4d7b383c92d19ff706e324549eb30553830413dc5a78beb99828dfac32efcedd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_ad62855b42f35084608fe19d7f9ad65ea2bedd23ffc3046f3fbb2015f6e7a1e0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ad62855b42f35084608fe19d7f9ad65ea2bedd23ffc3046f3fbb2015f6e7a1e0->enter($__internal_ad62855b42f35084608fe19d7f9ad65ea2bedd23ffc3046f3fbb2015f6e7a1e0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        $__internal_8ea99b57e20013e8b4c4eca7873fdbd8b0f94f67ef861f255cecda5466782f0f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8ea99b57e20013e8b4c4eca7873fdbd8b0f94f67ef861f255cecda5466782f0f->enter($__internal_8ea99b57e20013e8b4c4eca7873fdbd8b0f94f67ef861f255cecda5466782f0f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_fd845ab151c7215c8cd62ab2b5aa5d6d87b0b8203bf154f4727b785e3fc1d09d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fd845ab151c7215c8cd62ab2b5aa5d6d87b0b8203bf154f4727b785e3fc1d09d->enter($__internal_fd845ab151c7215c8cd62ab2b5aa5d6d87b0b8203bf154f4727b785e3fc1d09d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 108
+        // line 201
         echo "<script type=\"text/javascript\">
     \$().ready(function() {
         \$('#carousel-example-generic').carousel();
@@ -301,10 +394,10 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
 </script>
 ";
         
-        $__internal_8ea99b57e20013e8b4c4eca7873fdbd8b0f94f67ef861f255cecda5466782f0f->leave($__internal_8ea99b57e20013e8b4c4eca7873fdbd8b0f94f67ef861f255cecda5466782f0f_prof);
+        $__internal_fd845ab151c7215c8cd62ab2b5aa5d6d87b0b8203bf154f4727b785e3fc1d09d->leave($__internal_fd845ab151c7215c8cd62ab2b5aa5d6d87b0b8203bf154f4727b785e3fc1d09d_prof);
 
         
-        $__internal_4d7b383c92d19ff706e324549eb30553830413dc5a78beb99828dfac32efcedd->leave($__internal_4d7b383c92d19ff706e324549eb30553830413dc5a78beb99828dfac32efcedd_prof);
+        $__internal_ad62855b42f35084608fe19d7f9ad65ea2bedd23ffc3046f3fbb2015f6e7a1e0->leave($__internal_ad62855b42f35084608fe19d7f9ad65ea2bedd23ffc3046f3fbb2015f6e7a1e0_prof);
 
     }
 
@@ -320,27 +413,72 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
 
     public function getDebugInfo()
     {
-        return array (  296 => 108,  287 => 107,  274 => 3,  265 => 2,  226 => 78,  219 => 77,  210 => 71,  203 => 70,  197 => 69,  191 => 65,  184 => 64,  179 => 63,  175 => 62,  170 => 59,  168 => 58,  148 => 40,  141 => 39,  132 => 33,  125 => 32,  119 => 31,  113 => 27,  106 => 26,  101 => 25,  97 => 24,  92 => 21,  90 => 20,  76 => 9,  70 => 5,  68 => 2,  11 => 1,);
+        return array (  389 => 201,  380 => 200,  367 => 3,  358 => 2,  271 => 123,  264 => 122,  255 => 116,  248 => 115,  242 => 114,  236 => 110,  229 => 109,  224 => 108,  220 => 107,  215 => 104,  213 => 103,  193 => 85,  186 => 84,  177 => 78,  170 => 77,  164 => 76,  158 => 72,  151 => 71,  146 => 70,  142 => 69,  137 => 66,  135 => 65,  76 => 9,  70 => 5,  68 => 2,  11 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Twig_Source("{% extends \"::base.html.twig\" %} {% block title %}AppBundle:Landing:index{% endblock %} {% block body %}
 {% block stylesheets %}
-<link rel=\"stylesheet\" type=\"text/css\" href=\"{{asset('/CSS/landing.css')}}\">
+<link rel=\"stylesheet\" type=\"text/css\" href=\"{{asset('/CSS/landing.css')}}\" media=\"screen\">
 {% endblock %}
 
 
 <div class=\"container-fluid\">
-    <div class=\"imgLAND\">
+    <div class=\"imgLANDconteneur\">
     <!--  <img id=\"imgLAND\" alt=\"\" src=\"{{asset('/img/backgroundLAND/fong.jpg')}}\"/>  -->
-    <a href=\"http://placehold.it\"><img src=\"http://placehold.it/1900x450\"></a>
+    <a class=\"imgLAND\" href=\"http://placehold.it\"><img src=\"http://placehold.it/2000x800\"></a>
     </div>
 
-    <div id=\"recherche\">
+     <div id=\"recherche\">
+    <form class=\"navbar-form \" role=\"search\">
+      <p class=\"navbar-text text-center\"> Je cherche </p>
+            <div class=\"btn-group\">
+     <button type=\"button\" class=\"btn btn-default\">une expo</button>
+     <button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+       <span class=\"caret\"></span>
+       <span class=\"sr-only\">Toggle Dropdown</span>
+     </button>
+     <ul class=\"dropdown-menu\">
+       <li><a href=\"#\">Action</a></li>
+       <li><a href=\"#\">Another action</a></li>
+       <li><a href=\"#\">Something else here</a></li>
+       <li role=\"separator\" class=\"divider\"></li>
+       <li><a href=\"#\">Separated link</a></li>
+     </ul>
+     <p class=\"navbar-text\"> à </p>
+<button type=\"button\" class=\"btn btn-default\">Paris</button>
+<button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+<span class=\"caret\"></span>
+<span class=\"sr-only\">Toggle Dropdown</span>
+</button>
+<ul class=\"dropdown-menu\">
+<li><a href=\"#\">Action</a></li>
+<li><a href=\"#\">Another action</a></li>
+<li><a href=\"#\">Something else here</a></li>
+<li role=\"separator\" class=\"divider\"></li>
+<li><a href=\"#\">Separated link</a></li>
+</ul>
+     <p class=\"navbar-text\"> de </p>
+<button type=\"button\" class=\"btn btn-default\">Photo</button>
+<button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+<span class=\"caret\"></span>
+<span class=\"sr-only\">Toggle Dropdown</span>
+</button>
+<ul class=\"dropdown-menu\">
+<li><a href=\"#\">Action</a></li>
+<li><a href=\"#\">Another action</a></li>
+<li><a href=\"#\">Something else here</a></li>
+<li role=\"separator\" class=\"divider\"></li>
+<li><a href=\"#\">Separated link</a></li>
+</ul>
 
+          <button type=\"submit\" class=\"btn btn-warning\">Submit</button>
+        </form>
+    </div>
     </div>
 
+<div class=\"carousel\">
 <div id=\"carouselExpo\">
     <h2> Les rendez vous de la semaine </h2>
 <div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\">
@@ -416,17 +554,65 @@ class __TwigTemplate_3cf4fe7be8847c6919737af6a1bc23679a23a87e3333b688f86f7dd3ea7
     </a>
 </div>
 </div>
-
-
-
-
-<div>
-    <div class=\"row video bli\">
-        <h2 class=\"H2white\"> Manifeste Karism </h2>
-        <div class=\"video\">
-    <iframe class=\"vid col-md-offset-2 col-md-8 col-xs-12\"  src=\"//www.youtube.com/embed/GAQ8PePmN6w\" allowfullscreen=\"\"></iframe>  
-        </div>
 </div>
+
+
+
+    <!--
+
+        <div class=\"video\">
+    <h2 class=\"H2white\"> Manifeste Karism </h2>
+    <iframe src=\"//www.youtube.com/embed/GAQ8PePmN6w\" allowfullscreen=\"\"></iframe>
+
+    </div> -->
+
+    <section class=\"video\">
+        <h2>Manifestation Kar:ms</h2>
+        <div class=\"embed-responsive embed-responsive\">
+          <iframe class=\"vid embed-responsive-item\"  src=\"//www.youtube.com/embed/GAQ8PePmN6w\" width=\"300\" height=\"150\"></iframe>
+       </div>
+   </section>
+
+
+<div class=\"row laius\">
+<h2>Les expos selon nous </h2>
+<div class=\"col-md-12\">
+  <div class=\"col-md-4\">
+    <div class=\"thumbnail\">
+      <a href=\"http://placehold.it\"><img src=\"http://placehold.it/150x250\"></a>
+      <div class=\"caption\">
+        <h2>Transformez votre salon en galerie éphèmère</h2>
+        <p>Nis clou ni vis les artistes scénographie leur expo sans toucher a vos murs</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class=\"col-md-4\">
+    <div class=\"thumbnail\">
+      <a href=\"http://placehold.it\"><img src=\"http://placehold.it/150x250\"></a>
+      <div class=\"caption\">
+        <p><h2> Faites des rencontres</h2></p>
+        <p>Les expos à la maison c'est le moment idéal pour faire des rencontres et parler de vos passions.</p>
+
+      </div>
+    </div>
+</div>
+
+<div class=\"col-md-4\">
+  <div class=\"thumbnail\">
+    <a href=\"http://placehold.it\"><img src=\"http://placehold.it/150x250\"></a>
+    <div class=\"caption\">
+      <h2>Vivez un moment hors du temps</h2>
+      <p>Pas besoin d'avion pour voyager, laissez vous surprendre à deux pas de chez vous</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
 
 
 </div>
