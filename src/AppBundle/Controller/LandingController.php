@@ -21,7 +21,7 @@ class LandingController extends Controller
     public function getimageAction()
     {
         $em = $this->getDoctrine()->getManager();
-        $images = $em->getRepository('AppBundle\Entity\Landingcarouselartiste')->findAll();
+        $images = $em->getRepository('AppBundle\Entity\Landing')->findAll();
 
         $imgs = [];
 

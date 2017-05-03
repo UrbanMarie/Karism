@@ -1,6 +1,10 @@
-AppBundle\Entity\Landingcarouselexpo:
+AppBundle\Entity\Roles:
     type: entity
-    table: LandingCarouselExpo
+    table: roles
+    indexes:
+        role:
+            columns:
+                - role
     id:
         id:
             type: integer
@@ -11,13 +15,15 @@ AppBundle\Entity\Landingcarouselexpo:
             generator:
                 strategy: IDENTITY
     fields:
-        image:
+        role:
+            type: smallint
+            nullable: false
+            options:
+                unsigned: false
+        name:
             type: string
-            nullable: true
+            nullable: false
             length: 255
             options:
                 fixed: false
-        type:
-            type: boolean
-            nullable: true
     lifecycleCallbacks: {  }

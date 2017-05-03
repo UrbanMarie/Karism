@@ -1,6 +1,6 @@
-AppBundle\Entity\Landingcarouselartiste:
+AppBundle\Entity\Landing:
     type: entity
-    table: LandingCarouselArtiste
+    table: landing
     id:
         id:
             type: integer
@@ -13,11 +13,13 @@ AppBundle\Entity\Landingcarouselartiste:
     fields:
         image:
             type: string
-            nullable: true
+            nullable: false
             length: 255
             options:
                 fixed: false
-        type:
-            type: boolean
-            nullable: true
+        categorie:
+            type: smallint
+            nullable: false
+            options:
+                unsigned: true
     lifecycleCallbacks: {  }
