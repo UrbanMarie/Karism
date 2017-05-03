@@ -1,0 +1,23 @@
+AppBundle\Entity\Landingcarouselartiste:
+    type: entity
+    table: LandingCarouselArtiste
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: true
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        image:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+        type:
+            type: boolean
+            nullable: true
+    lifecycleCallbacks: {  }
