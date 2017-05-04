@@ -33,7 +33,7 @@ class UsersType extends AbstractType
     {
         return 'appbundle_users';
     }
-
     
+
 
 }

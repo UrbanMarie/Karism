@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Mer 03 Mai 2017 à 19:21
+-- Généré le :  Jeu 04 Mai 2017 à 10:26
 -- Version du serveur :  5.7.18-0ubuntu0.16.04.1
 -- Version de PHP :  7.0.15-0ubuntu0.16.04.4
 
@@ -72,6 +72,16 @@ CREATE TABLE `roles` (
   `name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Contenu de la table `roles`
+--
+
+INSERT INTO `roles` (`id`, `role`, `name`) VALUES
+(1, 1, 'invite'),
+(2, 2, 'hote'),
+(3, 3, 'artiste'),
+(4, 4, 'admin');
+
 -- --------------------------------------------------------
 
 --
@@ -85,6 +95,13 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   `role` smallint(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Contenu de la table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `email`, `password`, `role`) VALUES
+(1, 'emi', 'emi@e', '123', 4);
 
 --
 -- Index pour les tables exportées
@@ -135,12 +152,12 @@ ALTER TABLE `permissions`
 -- AUTO_INCREMENT pour la table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- Contraintes pour les tables exportées
 --
