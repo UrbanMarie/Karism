@@ -1,8 +1,8 @@
-
+{% extends 'base.html.twig' %}
 {% block title %}AppBundle:Login{% endblock %}
 {% block body %}
     {% block stylesheets %}
-        <link rel="stylesheet" type="text/css" href="{{asset('/CSS/landing.css')}}" media="screen">
+        <link rel="stylesheet" type="text/css" href="{{asset('./CSS/landing.css')}}" media="screen">
     {% endblock %}
 
     {{ form_start(form) }}
@@ -11,4 +11,25 @@
 
 
 
+    {% endblock %}
+    {% block javascripts %}
+    <script type="text/javascript">
+
+
+    $("form .save").click(function(){
+    var email = "btn-click";
+
+            $.ajax({
+                type: "GET",
+                url: "/login",
+                data: email,
+                cache: false,
+
+                success: function(login){
+                  $("#form_widget").html("login");
+                }
+            });
+            return false;
+        });
+    </script>
     {% endblock %}

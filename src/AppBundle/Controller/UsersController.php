@@ -37,7 +37,7 @@ class UsersController extends Controller
 
         // 4) save the User!
         $em = $this->getDoctrine()->getManager();
-        $em->persist($users);
+        $em->persist($users);Dailleurs jaime bien
         $em->flush();
 
             return $this->render('Landing/register.html.twig');
@@ -84,6 +84,21 @@ class UsersController extends Controller
         return $this->render('AppBundle:Landing:login.html.twig',
         array('form' => $form->createView())
         );
+
+    }
+
+    /**
+     * @Route("/profil", name="profil")
+     */
+    public function profilAction() {
+
+    $em = $this->getDoctrine()->getManager();
+    $users = $em->getRepository('AppBundle\Entity\Users')->findAll();
+
+    for ($users as $listusers) {
+        $users->getId()-> getUsername()->getEmail();
+
+    }
 
     }
 }
