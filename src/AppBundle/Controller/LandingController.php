@@ -33,5 +33,14 @@ class LandingController extends Controller
         return $this->render('AppBundle:Landing:index.html.twig', ["images" => $imgs]);
 
     }
+    /**
+     * @Route("/articles", name="art")
+     */
+    public function getarticleAction() {
+        $em = $this->getDoctrine()->getManager();
+        $articles = $em->getRepository('AppBundle\Entity\Articles')->findAll();
+
+        return $this->render('AppBundle:Landing:lp.html.twig', ["articlelist" => $articles]);
+    }
 
 }

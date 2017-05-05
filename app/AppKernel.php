@@ -15,6 +15,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new AdminBundle\AdminBundle(),
             new UserBundle\UserBundle(),
             new AppBundle\AppBundle(),
         ];
@@ -28,7 +29,7 @@ class AppKernel extends Kernel
 
         return $bundles;
     }
-
+    //http://localhost/Expomaison/exposmaison/web/app_dev.php/login
     public function getRootDir()
     {
         return __DIR__;

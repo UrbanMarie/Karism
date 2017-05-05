@@ -1,0 +1,11 @@
+{% extends "::base.html.twig" %}
+{% block title %}AppBundle:Landing:articles{% endblock %}
+{% block body %}
+    {% block stylesheets %}
+        <link rel="stylesheet" type="text/css" href="{{asset('/CSS/landing.css')}}" media="screen">
+    {% endblock %}
+    {% for articles in articlelist %}
+        {{articles.title}}
+        {{articles.contenu}}
+    {% endfor %}
+{% endblock %}

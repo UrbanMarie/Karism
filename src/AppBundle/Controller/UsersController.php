@@ -4,7 +4,8 @@ namespace AppBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Htt;
 use Symfony\Bridge\Doctrine\Tests\Fixtures\User;
 use Symfony\Component\Form\Extension\Core\Type\ButtonType;
 use AppBundle\Form\UsersType;
@@ -89,7 +90,9 @@ class UsersController extends Controller
 
         $em = $this->getDoctrine()->getManager();
         $user = $em->getRepository('AppBundle\Entity\Users')->findOneById($userid);
-
+        if (empty($user)){
+            return new Response("FUCK OFF !");
+        }
         $u = [];
 
         $u ['id'] = $user->getId();
