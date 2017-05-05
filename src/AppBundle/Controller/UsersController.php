@@ -76,29 +76,28 @@ class UsersController extends Controller
                 $em->persist($users);
                 $em->flush();
 
-                return $this->render('AppBundle:Landing:login.html.twig',
-                array('form' => $form->createView())
-                );
             }
-
-        return $this->render('AppBundle:Landing:login.html.twig',
-        array('form' => $form->createView())
-        );
-
+            return $this->render('AppBundle:Landing:login.html.twig',
+            array('form' => $form->createView())
+            );
     }
 
-    // /**
-    //  * @Route("/profil", name="profil")
-    //  */
-    // public function profilAction() {
-    //
-    // $em = $this->getDoctrine()->getManager();
-    // $users = $em->getRepository('AppBundle\Entity\Users')->findAll();
-    //
-    // for ($users as $listusers) {
-    //     $users->getId()-> getUsername()->getEmail();
-    //
-    // }
-    //
-    // }
+    /**
+     * @Route("/profil/{userid}/", name="profil")
+     */
+    public function profilAction($userid) {
+
+        $em = $this->getDoctrine()->getManager();
+        $user = $em->getRepository('AppBundle\Entity\Users')->findOneById($userid);
+
+        $u = [];
+
+        $u ['id'] = $user->getId();
+        $u ['username'] = $user->getUsername();
+        $u ['email'] = $user->getEmail();
+        $u ['role'] = $user->getRole()->getName();
+
+        return $this->render('AppBundle:Profil:profil.html.twig', ['user' => $user]);
+
+    }
 }

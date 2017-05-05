@@ -42,6 +42,6 @@ AppBundle\Entity\Users:
             inversedBy: null
             joinColumns:
                 role:
-                    referencedColumnName: role
+                    referencedColumnName: id
             orphanRemoval: false
     lifecycleCallbacks: {  }

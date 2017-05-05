@@ -3,12 +3,11 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use AppBundle\Controller\UsersController;
 
 /**
  * Roles
  *
- * @ORM\Table(name="roles", indexes={@ORM\Index(name="role", columns={"role"})})
+ * @ORM\Table(name="roles")
  * @ORM\Entity
  */
 class Roles

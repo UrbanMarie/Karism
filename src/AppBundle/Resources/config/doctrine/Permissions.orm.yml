@@ -33,6 +33,6 @@ AppBundle\Entity\Permissions:
             inversedBy: null
             joinColumns:
                 role_user:
-                    referencedColumnName: role
+                    referencedColumnName: id
             orphanRemoval: false
     lifecycleCallbacks: {  }

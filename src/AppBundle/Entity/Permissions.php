@@ -3,7 +3,6 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use AppBundle\Controller\UsersController;
 
 /**
  * Permissions
@@ -41,7 +40,7 @@ class Permissions
      *
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Roles")
      * @ORM\JoinColumns({
-     *   @ORM\JoinColumn(name="role_user", referencedColumnName="role")
+     *   @ORM\JoinColumn(name="role_user", referencedColumnName="id")
      * })
      */
     private $roleUser;

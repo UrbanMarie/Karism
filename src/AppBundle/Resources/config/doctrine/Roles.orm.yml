@@ -1,10 +1,6 @@
 AppBundle\Entity\Roles:
     type: entity
     table: roles
-    indexes:
-        role:
-            columns:
-                - role
     id:
         id:
             type: integer
