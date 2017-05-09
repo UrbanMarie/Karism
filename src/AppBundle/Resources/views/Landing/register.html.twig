@@ -1,9 +1,6 @@
 {% extends 'base.html.twig' %}
 {% block title %}AppBundle:Register{% endblock %}
 {% block body %}
-    {% block stylesheets %}
-        <link rel="stylesheet" type="text/css" href="{{asset('/CSS/landing.css')}}" media="screen">
-    {% endblock %}
 
     {{ form_start(form) }}
     {{ form_widget(form.save, { 'label': 'Click me' }) }}

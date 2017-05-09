@@ -47,7 +47,7 @@ class Users
      *
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Roles")
      * @ORM\JoinColumns({
-     *   @ORM\JoinColumn(name="role", referencedColumnName="id")
+     *   @ORM\JoinColumn(name="role", referencedColumnName="role")
      * })
      */
     private $role;

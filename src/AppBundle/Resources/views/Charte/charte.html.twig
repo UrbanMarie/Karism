@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{parent()}} - Charte
+{% endblock %}
+
+{% block body %}
+<!-- <div class="container">
+    <article id="imgexpo">
+        <img src="{{ asset('img/Charte/expo.jpg') }}" alt="expo">
+    </article>
+</div> -->
+    <h2>Karism est un projet qui repose sur des valeurs fortes</h2><br><br>
+        {% for charte in chartes %}
+        <article class="titre"><h2>{{charte.titre}}</h2><br>
+        {{charte.contenu}}
+        <br><br><br><br>
+    </article>
+    {% endfor %}
+{% endblock %}
+
+{% block javascripts %}{% endblock %}

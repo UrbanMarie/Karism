@@ -1,47 +1,113 @@
 <!DOCTYPE html>
-<html  class="no-js" lang="en" dir="ltr">
+<html class="no-js" lang="en" dir="ltr">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="stylesheet" href="{{asset("css/foundation.css")}}">
-        <link rel="stylesheet" href="{{asset("css/app.css")}}">
-        {% block stylesheets %}{% endblock %}
         <script src="https://use.fontawesome.com/720a2db289.js"></script>
+        <title>{% block title %}Kar:sm{% endblock %}</title>
+        {% block stylesheets %}
+        <link rel="stylesheet" href="{{asset("css/font-awesome.min.css")}}">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="{{asset("css/foundation.min.css")}}">
+        <link rel="stylesheet" href="{{asset("css/style.min.css")}}">
+        {% endblock %}
     </head>
+
     <body>
-
-        <div class="top-bar">
-          <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-              <li class="menu-text">Site Title</li>
-              <li>
-                <a href="#">One</a>
-                <ul class="menu vertical">
-                  <li><a href="#">One</a></li>
-                  <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
+        <header>
+            <div class="top-bar">
+                <div class="top-bar-title">
+                    <a href="#"><img class="logo" src="{{ asset('img/Landing/Karism.png') }}" alt='Space'></a>
+                </div>
+                <div class="top-bar-right">
+                    <ul class="menu">
+                        <li>
+                            <a href="#" class="button secondary" title="Se connecter">
+                                <i class="fa fa-sign-in"  aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="button secondary" title="S'inscrire">
+                                <i class="fa fa-user-plus"aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    {% block navbar %}{% endblock %}
+                </div>
+            </div>
+            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                <ul class="orbit-container">
+                    <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                    <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                    <li class="is-active orbit-slide">
+                        <img src="{{ asset('img/Landing/2048x800.png') }}" alt='Space'>
+                        <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                        <img src="{{ asset('img/Landing/2048x800.png')}}" alt='Space'>
+                        <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                        <img src="{{ asset('img/Landing/2048x800.png')}}" alt='Space'>
+                        <figcaption class="orbit-caption">Encapsulating</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                        <img src="{{ asset('img/Landing/2048x800.png')}}" alt='Space'>
+                        <figcaption class="orbit-caption">Outta This World</figcaption>
+                    </li>
                 </ul>
-              </li>
-              <li><a href="#">Two</a></li>
-              <li><a href="#">Three</a></li>
-            </ul>
-          </div>
-          <div class="top-bar-right">
-            <ul class="menu">
-              <li><input type="search" placeholder="Search"></li>
-              <li><button type="button" class="button">Search</button></li>
-            </ul>
-          </div>
-        </div>
+                <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0">
+                        <span class="show-for-sr">First slide details.</span>
+                        <span class="show-for-sr">Current Slide</span>
+                    </button>
+                    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                </nav>
+            </div>
+        </header>
+{% block body %}{% endblock %}
+        <footer>
+            <div class="row">
+                <div class="small-12 medium-expand columns">
+                    <h6>A propos</h6>
+                    <p>
+                        Vivez l’art différemment.<br>
+                        Organisez, participez et découvrez des évènements artistiques chez des particulers près de chez vous
+                    </p>
+                </div>
+                <div class="small-12 medium-expand columns">
+                    <h6>En savoir plus</h6>
+                    <a href="Charte">Charte</a><br>
+                    <a href="FAQ">FAQ</a>
+                </div>
+                <div class="small-12 medium-expand columns">
+                    <h6>Contact</h6>
+                    <a href="tel:0033781027215"><i class="fa fa-phone" aria-hidden="true"></i> 07 81 02 72 15</a><br>
+                    <a href="mailto:contact@karism.fr"><i class="fa fa-envelope" aria-hidden="true"></i> contact@karism.fr</a>
+                </div>
+                <div class="small-12 medium-expand columns">
+                    <h6>Nous suivre</h6>
+                    <div class="center">
+                        <a href="https://www.facebook.com/lesexposalamaison/" target="_blank">
+                            <span class="social-btn"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+                        </a>
+                        <a href="https://twitter.com/LesExpos" target="_blank">
+                            <span class="social-btn"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        </a>
+                        <a href="https://www.instagram.com/lesexposalamaison/" target="_blank">
+                            <span class="social-btn"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
 
-
-
-
-
-
-        {% block body %}{% endblock %}
+                </div>
+            </div>
+            <div class="center copyright">
+                ©2017 Karism
+            </div>
+        </footer>
 
         <script src="{{asset("js/vendor/jquery.js")}}"></script>
         <script src="{{asset("js/vendor/what-input.js")}}"></script>
