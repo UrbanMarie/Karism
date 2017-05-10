@@ -43,6 +43,13 @@ class Users
     private $password;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="profilPicture", type="string", length=255, nullable=false)
+     */
+    private $profilpicture;
+
+    /**
      * @var \AppBundle\Entity\Roles
      *
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Roles")
@@ -134,6 +141,30 @@ class Users
     public function getPassword()
     {
         return $this->password;
+    }
+
+    /**
+     * Set profilpicture
+     *
+     * @param string $profilpicture
+     *
+     * @return Users
+     */
+    public function setProfilpicture($profilpicture)
+    {
+        $this->profilpicture = $profilpicture;
+
+        return $this;
+    }
+
+    /**
+     * Get profilpicture
+     *
+     * @return string
+     */
+    public function getProfilpicture()
+    {
+        return $this->profilpicture;
     }
 
     /**

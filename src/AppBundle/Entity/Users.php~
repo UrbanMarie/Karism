@@ -43,11 +43,18 @@ class Users
     private $password;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="profilPicture", type="string", length=255, nullable=false)
+     */
+    private $profilpicture;
+
+    /**
      * @var \AppBundle\Entity\Roles
      *
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Roles")
      * @ORM\JoinColumns({
-     *   @ORM\JoinColumn(name="role", referencedColumnName="role")
+     *   @ORM\JoinColumn(name="role", referencedColumnName="id")
      * })
      */
     private $role;

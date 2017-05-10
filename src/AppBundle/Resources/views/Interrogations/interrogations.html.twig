@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{parent()}} - Une interrogation?
+{% endblock %}
+
+{% block body %}
+<!-- <div class="container">
+    <article id="imgexpo">
+        <img src="{{ asset('img/Charte/expo.jpg') }}" alt="expo">
+    </article>
+</div> -->
+    <h2>Notre foire aux questions contient certainement la réponse!</h2><br><br>
+
+    <div class="row">
+        <div class="small-4 columns">
+            {% for interrogations in interrogation %}
+            <article class="titre"><h2>{{interrogations.titre}}</h2><br>
+                    {{interrogations.contenu}}
+                    <br><br><br><br>
+            {% endfor %}
+            </article>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block javascripts %}{% endblock %}

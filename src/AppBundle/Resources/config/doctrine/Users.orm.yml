@@ -33,6 +33,13 @@ AppBundle\Entity\Users:
             length: 255
             options:
                 fixed: false
+        profilpicture:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+            column: profilPicture
     manyToOne:
         role:
             targetEntity: Roles
@@ -42,6 +49,6 @@ AppBundle\Entity\Users:
             inversedBy: null
             joinColumns:
                 role:
-                    referencedColumnName: role
+                    referencedColumnName: id
             orphanRemoval: false
     lifecycleCallbacks: {  }
